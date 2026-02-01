@@ -2,27 +2,97 @@
 <html>
 <head>
     <title>Darshan Mali | Data Analyst Portfolio</title>
-</head>
-<body style="font-family: Arial; text-align: center; margin-top: 60px;">
-    <h1>Darshan Mali</h1>
-    <h2>Data Analyst Portfolio</h2>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+        }
 
-    <p>
-        <a href="Darshan_Mali_Data_Analyst_Resume.pdf" target="_blank">
+        .container {
+            margin-top: 80px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-weight: normal;
+            color: #cfd8dc;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 25px;
+            margin: 20px auto;
+            width: 320px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            display: block;
+        }
+
+        .btn {
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 10px;
+            background-color: #00bcd4;
+        }
+
+        .btn.github { background-color: #4caf50; }
+        .btn.linkedin { background-color: #0e76a8; }
+
+        footer {
+            margin-top: 80px;
+            color: #b0bec5;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Darshan Mali</h1>
+    <h2>Data Analyst | SQL • Python • Excel • EDA</h2>
+
+    <div class="card">
+        <a href="Darshan_Mali_Data_Analyst_Resume.pdf" target="_blank" class="btn">
             📄 View My Resume
         </a>
-    </p>
+    </div>
 
-    <p>
-        <a href="https://github.com/darshanmali99" target="_blank">
+    <div class="card">
+        <a href="https://github.com/darshanmali99" target="_blank" class="btn github">
             💻 GitHub Projects
         </a>
-    </p>
+    </div>
 
-    <p>
-        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-            🔗 LinkedIn
+    <div class="card">
+        <a href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" class="btn linkedin">
+            🔗 LinkedIn Profile
         </a>
-    </p>
+    </div>
+</div>
+
+<footer>
+    © 2026 Darshan Mali • Data Analyst Portfolio
+</footer>
+
 </body>
 </html>
